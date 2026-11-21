@@ -4,7 +4,7 @@
 给小米音乐（`com.miui.player`）刷「免费听」时长。
 
 - 平台：Android，AScript 4.0.17+（无障碍模式）
-- 实测设备：1440×3200 / Android（vivo V2055A 同级别）
+- 实测设备：**REDMI K80**（1440×3200，Android）
 - OCR：paddle（百度 PP-OCR V5）
 
 > ## 📌 来源与致谢
@@ -50,7 +50,7 @@ App 自动回到「免费听」页 → 读顶部倒计时 00:15:35
 ## 快速开始
 
 1. 手机装 AScript App，开**无障碍**权限；「开发者」页开**设备服务**（端口 9096）
-2. `.vscode/settings.json` 里填手机 IP（当前 `192.168.0.158:9096`，换网络要改）
+2. `.vscode/settings.json` 里把 `192.168.1.100:9096` 换成你手机的局域网 IP（端口固定 9096）
 3. VS Code 装 AScript 插件 → 命令面板 `AScript: 扫描设备` 添加设备 → `AScript: 选择运行设备`
 4. `AScript: 在设备上运行当前工程`
 
